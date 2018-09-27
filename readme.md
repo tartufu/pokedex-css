@@ -10,7 +10,7 @@ Remember to start by defining the boxes that comrise the layout.
 
 When you are done with that add in some more details to your page.
 
-![pokedex-complex.png](pokedex-complex.png)
+![pokedex-complete.png](pokedex-complete.png)
 
 ### further
 Add some complex shapes and background images
