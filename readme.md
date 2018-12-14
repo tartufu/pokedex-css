@@ -4,7 +4,7 @@ You will be creating the HTML and CSS for an online pokedex page. This one is fo
 
 Begin with the simplest version and add from there.
 
-Remember to start by defining the boxes that comrise the layout.
+Remember to start by defining the boxes that comprise the layout.
 
 ---
 
