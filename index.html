@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container"> <!-- start of pokedex container  -->
+        <h1>Bulbasaur #001</h1>
+        <div class="row"> <!-- start of pokemon description -->
+            <div class="col-md-6 pokemon"> <!-- pokemon image -->
+                <div class="pokemon-hero">
+                    <img src="images/bulbasaur-main.png">
+                </div>
+                <div>
+                    <img src="sdfsdfsd"> <!-- stats bar, need to draw a table -.- -->
+                </div>
+            </div>
+
+            <div class="col-md-6 pokemon-stats"> <!-- start of pokemon stats -->
+                <h5>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seeds grow progressively larger.</h5>
+                <br> <!-- creates spacing for box below -->
+
+                <div class="row pokemon-vital"> <!-- start of blue-zone -->
+
+                    <div class="col-6">
+                        <p class="vital-header">Height</p>
+                        <p>2' 04"</p>
+                        <p class="vital-header">Category</p>
+                        <p>Seed</p>
+                    </div>
+
+                    <div class="col-6">
+                        <p class="vital-header">Weight</p>
+                        <p>15.2 lbs</p>
+                        <p class="vital-header">Abilities</p>
+                        <p>Overgrow</p>
+                    </div>
+                </div> <!-- en d of blue zone -->
+                <br>
+                <div class="pokemon-type"> <!-- start of pokemon type -->
+                    <h5>Type</h5>
+                    <button class="grass-type">Grass</button>
+                    <button class="poison-type"> Poison</button>
+                    <br><br>
+                    <h5>Weaknesses</h5>
+                    <button class="fire-type">Fire</button>
+                    <button class="flying-type">Flying</button>
+                    <button class="ice-type">Ice</button>
+                    <button class="psychic-type">Psychic</button>
+                </div> <!-- end of pokemon type -->
+
+            </div> <!-- end of pokemon stats -->
+        </div> <!-- end of pokemon description -->
+
+    </div> <!-- end of pokedex container -->
+    <br><br>
+    <div class="container evolution-chart"> <!-- start of evolution chart -->
+        <h5>Evolutions</h5>
+        <div class="row evolution-order"> <!-- pokemon evolving -->
+            <div class="col-md-4">
+                <div class="pokemon-gallery">
+                <img src="images/bulbasaur-small.png">
+                <h1>></h1>
+                </div>
+                <br>
+                <p>Bulbasaur #001</p>
+                <button class="grass-type">Grass</button>
+                <button class="poison-type"> Poison</button>
+            </div>
+
+            <div class="col-md-4">
+                <div class="pokemon-gallery">
+                <img src="images/ivysaur-small.png">
+                <h1>></h1>
+                </div>
+                <br>
+                <p>Ivysaur #002</p>
+                <button class="grass-type">Grass</button>
+                <button class="poison-type"> Poison</button>
+            </div>
+
+            <div class="col-md-4">
+                <div class="pokemon-gallery">
+                <img src="images/venusaur-small.png">
+                </div>
+                <br>
+                <p>Venusaur #003</p>
+                <button class="grass-type">Grass</button>
+                <button class="poison-type"> Poison</button>
+            </div>
+        </div> <!-- end of pokemon evolving -->
+    </div> <!-- end of evolution chart -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

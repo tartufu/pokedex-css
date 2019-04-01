@@ -1,0 +1,98 @@
+
+body {
+	background-image: url("images/poke-background.png")
+}
+
+h1 {
+	text-align: center;
+}
+
+h5 {
+	font-weight: normal;
+}
+
+.pokemon-hero {
+	background-color: rgb(239,239,239);
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.pokemon-hero img {
+		max-width: 320px;
+	}
+} /* this ensures that pokemon image wont go past edge on phone screen */
+
+.pokemon-stats {
+	position: relative;
+	top: 8px;
+}
+
+.pokemon-vital {
+	background-color: rgb(41,150,206);
+	border-radius: 10px;
+	padding: 16px;
+	font-weight: bold;
+	margin: 1px;
+}
+
+.vital-header {
+	color: white;
+}
+
+button {
+	padding: 4px 32px;
+	border-radius: 8px;
+	color: white;
+	width: 150px;
+	margin: 4px;
+}
+
+.grass-type {
+	background-color: green;
+}
+
+.poison-type {
+	background-color: purple;
+}
+
+.fire-type {
+	background-color: orange;
+}
+
+.flying-type {
+	background-color: blue;
+}
+
+.ice-type {
+	background-color: coral;
+}
+
+.psychic-type {
+	background-color: pink;
+}
+
+.evolution-chart {
+	color: white;
+	padding: 16px;
+	background-image: url("images/poke-background2.png");
+}
+
+.evolution-chart p {
+	text-align: center;
+}
+
+.pokemon-gallery {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.pokemon-gallery h1 {
+	font-size: 96px;
+}
+
+.pokemon-gallery img {
+	border-radius: 50%;
+	border: 5px solid white;
+}
